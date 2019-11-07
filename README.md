@@ -1,4 +1,5 @@
-# DNA_alignment_to_divergence_times_using_BEAST
+## Workflow for how to generate a phylogeny with divergence times from nucleotide alignments using BEAST.
+### Once you "tame the beast" with this workflow, there are tons of options you should add and update specific to your project. 
 
 1) install BEAST v 2.6.1
   -NOTE: in my experience, the mac version did not update to 2.6.1, so I decided to use the windows version
