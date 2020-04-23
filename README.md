@@ -7,8 +7,11 @@
 3) launch beauti from the beast directory and import alignment (nexus file)
   -Change the site model from JC69 to GTR.
   -Change CLock model to RELAXED LOG NORMAL.
-  -Add priors: scroll up to normal distribution and select monophyletic.
-  -Include a prior with all samples except your outgroup and select monophyletic.
+  -Add priors: 
+  -make a taxon set label (e.g. within Aedes or Aedes vs Culex), and move over all species in that clade/clades.
+  -scroll up to normal distribution and select monophyletic.
+  - Select the tiny black triangle on the left of the new prior line to add divergence info: Mean and std (Sigma)
+  (For examples : https://journals.plos.org/ploscompbiol/article/file%3Ftype%3Dsupplementary%26id%3Dinfo:doi/10.1371/journal.pcbi.1003537.s004)
   -change MCMC chain length to 800000.
   - save.
  4) launch beast, and input the .xml file from beati and then run it.
