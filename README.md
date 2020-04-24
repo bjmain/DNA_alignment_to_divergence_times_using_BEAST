@@ -6,6 +6,7 @@
 2) Perform multiple sequence alignment using MUSCLE and export as NEXUS format.
 3) launch beauti from the beast directory and import alignment (nexus file)
   -Change the site model from JC69 to GTR.
+  - See: https://taming-the-beast.org/tutorials/Prior-selection/ for a description of the different site models.
   -Change CLock model to RELAXED LOG NORMAL.
   -Add priors: 
   -make a taxon set label (e.g. within Aedes or Aedes vs Culex), and move over all species in that clade/clades.
